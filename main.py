@@ -1,8 +1,8 @@
+import chainlit as cl
+import httpx, os
 from pydantic_ai import Agent
 from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
-import chainlit as cl
-import httpx, os
 from dotenv import load_dotenv
 load_dotenv()
 
