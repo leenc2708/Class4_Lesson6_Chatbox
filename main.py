@@ -8,7 +8,8 @@ load_dotenv()
 
 model = OpenAIModel(
     #'deepseek/deepseek-r1-0528:free',
-    'google/gemini-2.5-flash-lite',
+    #'google/gemini-2.5-flash-lite',
+    'openai/gpt-oss-20b:free',
     provider=OpenAIProvider(
         base_url='https://openrouter.ai/api/v1',
         api_key=os.getenv("OPENROUTER_API_KEY"),
